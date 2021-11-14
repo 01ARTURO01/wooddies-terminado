@@ -1,0 +1,144 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.header{
+    min-height: 800px;
+    margin-bottom: 120px;
+}
+.header-table{
+    width: 630px;
+    height: 800px;
+    background: url(../img/header-table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: -1;
+}
+
+.header-container{
+    height: 540px;
+    display: flex;
+    align-items: center;
+}
+.nav-link.active{
+    color: #DAA520 !important;
+}
+.funiture-text-center{
+    align-items: center;
+
+}
+.funiture{
+    min-height: 415px;
+}
+.funiture h3{
+    color: #3E3F43;
+    font-size: 2.25rem;
+}
+.funiture p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+/*TERMINO*/
+.header-with-logo{
+    background: url(../img/logito.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 45px;
+}
+.cuchara{
+    background: url(../img/cuchara.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 379px;
+    width: 21%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+.text-gray-opacity{
+    color: rgba(34,34,34,0.1);
+    font-size: 4rem;
+    flex-basis: auto;
+}
+.header-with-logo{
+    background: url(../img/logito2.jpg);
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+.container-galeria{
+    margin: 0 auto;
+    margin-left: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-pie{
+    margin-right: 22px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-btn{
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-around;   
+}
+.container-categories{
+    font-size: 4rem;
+    align-items: center;
+    padding: 115px;
+}
+
+.container-foto{
+    margin: 0 auto;
+    margin-top: -7em;
+    padding: 46px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-fotos{
+    margin: 0 auto;
+    display: flex;
+    margin-top: -7em;
+    padding: 110px;
+}
+
+.container-Testimony{
+    font-size: 4rem;
+    align-items: center;
+    padding: 115px;
+    margin-top: -230px;
+}
+
+.container-ft{
+    margin-top: -226px;
+    padding: 98px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-barra{
+    padding: 98px;
+}
+
+.container-fondo{
+    justify-content: center;
+    display: flex;
+    margin-top: -200px;
+}
+
+.container-hr{
+    padding: 98px;
+    margin-top: -362px;
+}
+
+.container-logito5000{
+    padding: 7em;
+    margin-top: -13em;
+}
